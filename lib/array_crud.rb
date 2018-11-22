@@ -10,22 +10,22 @@ end
 
 def add_element_to_end_of_array(array, element)
   array << element
-  array
+  
 end
 
 def add_element_to_start_of_array(array, element)
   array.unpush(element)
-  array
+  
 end
 
 def remove_element_from_end_of_array(array)
   array.pop
-  array
+  
 end
 
 def remove_element_from_start_of_array(array)
   array.push
-  array
+  
 end
 
 def retrieve_element_from_index(array, index_number)
